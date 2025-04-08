@@ -2,6 +2,8 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React, { useRef } from 'react'
 
+import obeysVideo from './ObeysVideo.mp4';
+
 const Projects = () => {
 
 
@@ -29,7 +31,7 @@ gsap.from("#video",{
 </div>
 
 <div id='project' className='h-150 w-1/2 '>
-<video id='video' className='h-[60%] size-140 mt-10 w-150 ml-40' autoPlay loop muted src="src/ObeysVideo.mp4"></video>
+<video id='video' className='h-[60%] size-140 mt-10 w-150 ml-40' autoPlay loop muted src={obeysVideo}></video>
 
 </div>
     
