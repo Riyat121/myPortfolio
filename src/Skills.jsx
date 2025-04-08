@@ -1,5 +1,6 @@
- 
 import React from 'react'
+
+import pieVideo from './pie3.mp4';
 
 const Skills = () => {
   return (
@@ -16,12 +17,11 @@ const Skills = () => {
     <h2 className='text-4xl ml-20 font-semibold text-red-600'>Coder</h2>
     <p className='text-amber-50 italic  font-medium text-2xl mt-3.5'>Proficient in Java, with a strong command of Data Structures & Algorithms (DSA) and Object-Oriented Programming (OOP), crafting efficient and scalable solutions.</p>
  </div>
- <video className='filter h-70 invert brightness-200 contrast-200' loop muted autoPlay src="src/pie3.mp4"></video>
+ <video className='filter h-70 invert brightness-200 contrast-200' loop muted autoPlay src={pieVideo}></video>
  <div className='w-68 ml-25'>
     <h2 className='text-4xl font-semibold  text-orange-400'>Developer</h2>
     <p className='text-amber-50 italic w-90 font-medium text-2xl mt-3.5'>Experienced Frontend Developer skilled in crafting visually appealing, high-performance web applications using React, Tailwind CSS, and modern JavaScript frameworks, ensuring seamless user experiences and optimized performance.</p>
- </div> 
- 
+ </div>
 </div>
    </div>
    </>
@@ -29,5 +29,3 @@ const Skills = () => {
 }
 
 export default Skills
-
-
